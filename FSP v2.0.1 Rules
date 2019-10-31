@@ -1,0 +1,316 @@
+What is Fantasy Simulation Protocol?
+
+    FSP is a homebrewed dice-based roleplaying game with heavy influence from games like Dungeons & Dragons and Pathfinder. FSP was 		created with the ethos that dice-based role 
+    playing games are not just games. Rather, they are shared story-telling experiences which can teach us about ourselves. Story 			telling, after all, is a uniquely human activity
+    which is likely an evolutionary hold-over from our proto-human ancestors; conserved within our behavior for its adaptive capacity to 	spread information throughout the tribe, and
+    prepare each other for the transient moments that would define our very survival. In the words of the illustrious actor and unlikely 	D&D aficionado Vin Diesel, 
+    
+    "We were all drawn to the game because it allowed us to become these characters. D&D was a training ground for our imaginations, and 	an opportunity to explore our own identities."
+
+    After playing games of this sort for several years, I have identified several areas in which they might be improved. Therefore, I 		present this unique, but undoubtedly derivative rule-set 
+    for Fantasy Simulation Protocol-- a revision which, for me and my friends at least, is a significant improvement to our capacity to 	immerse ourselves in the game. This gaming system is designed 
+    to be flexible-- therefore it is lore-nonspecific. However, you will find FSP lore within this ruleset for use in your own session, 	or to use as an example as you do your own worldbuilding. 
+    The lore included here takes heavy influence from the Forgotten Realms universe, Tamriel, Norrath, Temerant, and (of course) Middle-	Earth. The lore contains many other expected and likely 
+    unconscious plagiarisms which are intentionally familiar for the sake of ease of imagination.
+
+    FSP was designed to be played using role playing tools over the internet like Discord, Roll20.com, and dice-rolling applications. 		This is because for many people who grew up playing
+    D&D or other table-top RPGs with friends, graduating and moving away prevented regular D&D meetups from continuing, and therefore a 	system for playing over the internet was found
+    to be necessary. FSP is meant to fully exploit the resources of the internet and contemporary programming techniques to bring 			richness and depth to the game world.
+
+
+Meta-Gaming and how not to do it:
+    Often, roleplaying is difficult because players find it impossible to divorce their knowledge as a player from the knowledge that 		their character has. For example, it may be obvious to
+    someone as a player that the GM would put a trap in a certain place. However, the player must honestly estimate his character's 		ability to predict the proximity of traps, rather than 
+    relying on his own knowledge as a player. Using player knowledge to influence the actions of player characters is known as meta-		gaming. Meta-gaming should be avoided as it is a subtle, 
+    but nevertheless very common example of OOC play.
+PvE vs. PVP:
+    Player characters are the protagonists of the story, and generally work together towards a common goal as a party. However, in-group 	conflict has been known to occur. 
+    This is often when the transition from player-versus-environment (PVE), transitions into player-versus player (PVP) content. While 		traditionally this has been seen as an uncomfortable 
+    or undesirable play style, not every party is the same, and PVP can often be as cathartic as PVE. Further, depending on the actions 	of the respective characters, it may become literally
+    "out of character" (OOC) for one of the player characters not to react violently towards another player character. Doing things 		which are OOC ruins immersion, and should therefore be 
+    avoided.
+Turns vs. Rounds:
+    A turn is a player's turn, a round is how many turns it takes to get back to your character's turn.
+    
+    A turn represents 6 seconds of represented in-game time, but might be much more than that outside of the game.
+Gathering Resources:
+    Once per game day or every time your party enters a new area, you may use a gathering skill to search for things in the environment 	(like herbalism). DM consults the table after your roll to see if you are awarded something.
+
+Inspiration Points:
+    Each session, the players all receive 1 inspiration point. These can accumulate, and you do not have to use them each session. You 		can use an inspiration point on yourself or an ally to allow yourself or your ally to reroll any roll any time.
+    To use an inspiration point on an ally you must be within earshot of the ally and you must not be gagged or silenced. If you are 		gagged or silenced, you can still use an inspiration point on yourself.
+
+Taking your turn:
+
+    Each player's turn consists of the following:
+        1. 2 Major actions
+        2. up to 3 Minor actions
+        3. unlimited bonus actions where bonus actions are awarded by spells, items, or effects.
+
+    A major action can be:
+        1. Moving
+        2. Attacking
+        3. Doing something else which is too significant to be considered a minor action (DM discretion)
+
+    A minor action can be:
+        1. Taunting a foe
+        2. Saying something to an ally
+        3. Drawing/sheathing a weapon
+        4. Doing something else too insignificant to be considered a major action (DM discretion)
+    
+    You can forfeit any action at any time, and you do not have to do any minor actions if you don't want to.
+
+Casting Spells:
+
+    If you fizzle a spell, you dont lose mana.
+    If you cast a spell successfully, you lose the spells mana cost mana.
+    If a spell must be channeled, you must be uninterrupted by melee attack damage or magic damage (including dots) for the duration of 	the channeling.
+
+AOE effects:
+    Spells can have several properties that change their area of effects
+
+    First is the spells delivery method.
+        1. Centered on caster
+        2. Sent from caster
+        3. Placed on object or location
+
+    Second is the type of projection
+        1. Ball
+        2. Ray
+        3. Splash ball
+        4. Splash ray
+        5. Bolt
+        6. Arcing Bolt
+
+
+    Third is the Area of effect
+        1. Sphere
+        2. Breath
+        3. Line
+        4. Hemisphere
+
+    Fourth is the AoE size (1, 2, 3, 4, 5, 6)
+
+    For Sphere 1, 
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+                |   |   | x |   |   |
+                |   | x | c | x |   |
+                |   |   | x |   |   |
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+    For Sphere 2, 
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+                |   |   | x |   |   |
+                |   | x | x | x |   |
+                | x | x | c | x | x |
+                |   | x | x | x |   |
+                |   |   | x |   |   |
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+    And so on
+
+    For Breath 1, direction is important,
+
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+                |   |   |   |   | x |
+                |   |   | c | x | x |   -> this direction
+                |   |   |   |   | x |
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+                |   |   |   |   |   |
+
+    For Breath 2
+                |   |   |   |   |   |   |   |   |   |   |   |
+                |   |   |   |   |   |   |   |   |   |   |   |
+                |   |   |   |   |   | x |   |   |   |   |   |
+                |   |   |   |   | x | x |   |   |   |   |   |
+                |   |   | c | x | x | x |   |   |   |   |   |           -> this direction
+                |   |   |   |   | x | x |   |   |   |   |   |
+                |   |   |   |   |   | x |   |   |   |   |   |
+                |   |   |   |   |   |   |   |   |   |   |   |
+                |   |   |   |   |   |   |   |   |   |   |   |
+    And so on.
+
+    Splash balls are like spheres where the sphere is centered on the point of impact for the ball.
+    Splash rays are like sphere where the sphere is centered on the point of impact for the ball.
+
+    
+Rolling with disadvantage:
+
+    Rolling with disadvantage means you roll twice and take the lower of the two rolls
+	
+Rolling with advantage:
+
+    Rolling with advantage means you roll the same roll twice and take the higher of the two rolls.
+
+
+Stealth:
+
+    When trying to conceal yourself, you can not be in plain sight of NPCs. If you try to go stealth, you can not know if you are 			succesfully stealthed, you can only know what your stealth skill is. The DM will roll your stealth check for you.
+    This is because you can not know whether you have successfully hidden yourself. Whether you have successfully hidden depends on the 	perception of the creatures you are hiding from.
+
+    Attacking from stealth automatically provides advantage.
+Cover and Concealment:
+    If you are taking cover, you can have 100% cover (behind a wall), 50% cover (behind a table and chairs), or concealment (in a bush).
+
+	100% cover provides a +20 AC and resistance bonus to all attacks that would come your way (magical or physical)
+	50% cover provides a +10 AC and resistance bonus to all attacks that would come your way (magical or physical)
+	Concealment provides a +1-10 bonus to stealth checks, (DM discretion)
+Skill Checks:
+
+    When a skill check is presented to the players, they can argue briefly about other types of skills they think would work in the 		situation, but the DM ultimately decides what will be rolled for.
+
+    When a task requires a skill check, only one player can make that check. If other players in the party want to aid the PC making the 	check, they must roll a 10 or greater on the same skill check to give the PC making the check a +2 to their roll.
+    If, while attempting to aid another PC in a skillcheck, the aiding player gets less than a 10, then the PC being aided receives -2 		to their roll. 
+
+    Skill check rolls for RP-able skills  might be given bonuses by the DM if the player rolling the check makes a convincing RP.
+Basic attacks:
+
+    Basic attacks with melee or ranged weapons take into account the following:
+    
+        1. A d20 roll made by the attacking player
+        2. A bonus to that roll equal to the modifier of the ability score governing the player skill with that weapon
+        3. Another bonus to that roll equivalent to the bonus provided by any weapon enchantments
+
+    Hitting an opponent requires the following
+
+        1. The opponent's armor class or resistance (magic) is less than your roll
+        2. The opponent's reflex is lower than your roll
+        3. The opponent does not use any reactionary magic or abilities that nullifies your attacking
+
+    Basic attack damage takes into account the following:
+
+        1. The base damage of the weapon
+        2. Bonus damage equal to the modifier of the ability score governing the player skill with that weapon
+
+Critical Hits:
+
+    When a player rolls a natural 20, the player criticals on whatever he was rolling on. 
+
+    If it was a spell or attack:
+        1. Roll for damage normally
+        2. Add your damage to the maximum possible damage you could do with this spell or attack
+        3. Deal that amount of damage.
+
+    If it was a skill check or something else:
+        1. The DM's discrection will allow for something awesome to occur. 
+
+
+Critical Miss:
+
+    On a natural 1, your the DM's discretion can apply one major fuck up to the player or party as a result of the miss.
+
+Leveling up:
+
+    When a character levels up, he receives the following benefits:
+
+    1. Halflevel update (HP, MP, Ability score bonuses result)
+    2. +3 Skill points
+    3. +Dex mod weapon skill points to invest
+    4. +Int mod knowledge skill points to invest
+    5. If leveled up to 4, 8, or 12, add 2 bonus ability score points
+    6. If leveled up to 3, 6, 9, or 12, add 5 general skill points
+
+
+
+Experience:
+
+    Experience is given to players at the DM's discretion. Experience points lead to levelup events. 
+
+    Level   EXP(total)
+    1       0
+    2       1,000
+    3       2,000
+    4       4,000
+    5       8,000
+    6       12,000
+    7       16,000
+    8       20,000
+    9       28,000
+    10      36,000
+    11      42,000
+    12      50,000
+    13      60,000
+    14      70,000
+    15      80,000
+    16      100,000
+    17      120,000
+    18      140,000
+    19      160,000
+    20      200,000
+
+
+Death:
+
+    If you receive damage that takes your HP to zero (you can not be negative HP), you will be knocked prone and unconscious. If your 		hitpoints go to zero on your turn, you can roll a death saving throw (DST). Otherwise, wait until it is your turn,
+    or until the combat is over to roll a DST. You have three DSTs when you create your character, if you use all three and still have 		HP 0, then your character is dead. Characters can not be healed by health potions or healing spells while their HP is
+    zero.
+
+    To roll a death saving throw, roll 1d20. A 10 or greater will be a successful death saving throw. If you have adjacent allies, they 	can also roll a 1d20 to aid you in your death saving throw. For each adjacent ally who rolls a ten or greater, add 2
+    to your death saving throw roll. On a successful death saving throw, your HP rises to 1 and you are still prone, but can be healed.
+
+    On an unsuccessful death saving throw roll, your turn is over, and you expend one death saving throw.
+
+Ganking:
+    If an enemy is adjacent to you or if you are adjacent to an enemy and you are prone with HP 0 (or with greater than 0 HP), that 		enemy can gank you if he/she is not considered a popcorn monster. Ganking requires a rolling a nat 10 or greater,
+    and must be channeled for three turns. When you are ganked, you lose three death saving throws. If you have any remaining death 		saving throws, you are not dead. Otherwise, if your death saving throws are expended, you are dead. Ganking can be
+    interrupted by knocking the ganker back with a movement spell effect, knocking the ganker prone with a weapon or spell effect, 			stuning/petrifying/paralyzing the ganker with a spell effect, shoving the ganker out of the way using a strength
+    check or by killing the ganker.
+Range:
+    All attacks have a range maximum. For short melee weapons this range is 0. For longer melee weapons like polearms this range is 1. 		For all other types of ranged weapons, this range is 2 - 1x10^3242.
+    
+    If you are using a non-magical ranged attack (AKA a ranged weapon) such as a bow, javelin, or a crossbow, this range represents the 	range which your character can feasibly hit a target given the weapon type and your character's capabilities. 
+    Range is given to each character for each weapon they use individually by the DM. 
+
+    Note: this range does not represent the maximum possible range of the ranged weapon itself. The ranged weapon itself can be shot a 		maximum of 2X the given range provided by the DM. However, for each distance unit over the range provided by the DM
+    the player will suffer a -2 to their attack roll. 
+
+Status Effects:
+
+    Bloodied: A character is considered bloody when his or her HP is reduced to 1/2 of its maximum or lower.
+    
+    Poisoned: When a character is poisoned, he takes the poison damage provided by the DM per turn or per round until the effects wear 		off, he is given an antidote, or until he dies. If a player dies from poison, succeeds on a DST, and lives again,
+    he is no longer considered poisoned.
+    
+    On Fire: If a character is on fire, he will take fire damage every turn until he is extinguished. Every turn that a player or enemy 	stands adjacent to an on fire player, the adjacent players must exceed a DC10 to not become ignited themselves.
+
+    Madness: If your character is suffering from short-term, long-term, or indefinite madness, consult your DM the libram of madness 		effects that apply to you.
+
+    Injury: Injuries are sustained when your character comes close to death, or sometimes when he suffers a critical attack from an 		enemy. Injuries reduce your character's max HP pool by 5 until they are cured by a healer. Regular healing spells do 
+    not cure injuries, nor do mana potions. Skilled healers must conduct surgery to fix the injury.
+    
+    Crippled: After falling a major distance, you may break your legs or some other part of your body and become crippled. When 			crippled, you lose 1/2 movement speed, and may suffer injuries.
+
+    Blinded: A blinded creature can’t see and automatically fails any ability check that requires sight. Attack rolls against the 			creature have advantage, and the creature’s Attack rolls have disadvantage.
+
+    Silenced: Silenced creatures can not cast spells in the invocation, benediction, or malediction schools of magic.
+    
+    Deafened: A deafened creature can’t hear and automatically fails any ability check that requires hearing.
+
+    Prone: When your character is prone, he can't move, but can roll his body distance 1 by spending an inspiration point. Attacks made 	against prone characters gain advantage. In combat, characters who have been knocked prone can be ganked.
+    If your HP is greater than 1 and you are prone, you can make a VIG saving throw to get back on your feet when it is your turn. Doing 	 so constitutes two major actions, and is at a difficulty of the DM's discretion.
+
+Units, Metrics, and Distances:
+    You may note that your speed is "6". What does this mean? It means that your character can run a maximum of 2*6 (AKA 12) units per 		turn assuming you use both of your major actions as movement actions.
+
+    Rationale:
+    The average fit human sprints 100m in about 12-14 seconds. If you add to this the weight of equipment and the fact that regular 		movement doesn't happen like a 100m dash, then you can imagine that a typical "booking it" pace for a human to 
+    move 100m is around 16-18 seconds. 
+    
+    That means a human moves roughly 6m/s at an urgent pace. If each turn lasts roughly 6 seconds in and of itself, that means the max 		distance an average human could move in one turn would be 36 meters. 
+    
+    If we divide 36 by 12 (the number of units a player with speed 6 can move in 1 turn), we get 3. Three meters is roughly 10 feet, 		which is the size of one unit. A human with 6 speed can move 12 units per 6 seconds, 
+    therefore 2 units per second, therefore therefore ~20 fps or 6m/s.
+
+    This means that your "Speed" stat is literally your speed in meters per second.
+
+Attacks of Opportunity:
+    If a creature runs past another creature in combat, the creature who is not moving can choose to make an attack of opportunity on 		the one who is moving. The moving creature can try to jump/flip/parkour around to avoid this attack of opportunity
+    by rolling an acrobatics check greater than the opposing creature's dexterity check.
+
